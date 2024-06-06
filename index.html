@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Sonamiya High School</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
+    rel='stylesheet'> 
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"> <img src="fasilitas/cropped_image.png" width="60px"></a>
+
+        <nav class="navbar">
+            <a href="#homes" class="active">Home</a>
+            <a href="#profile" >Profil</a>
+            <a href="#facing" >Fasilitas</a>
+            <a href="#contact" >Contact Us</a>
+        </nav>
+    </header>
+    <section class="home" id="homes">
+        <div class="home-content">
+            <h1> Halo, Selamat Datang di Laman Website</h1>
+            <h2> "Sonamiya High School"</h2>
+
+            <br>
+
+            <p> <i> Langkahkan Kakimu, Kejarlah Impianmu </i> </p>
+        </div>
+    </section>
+    
+    <section class="course" id="profile">
+       <h1> Profil Sekolah </h1>
+       <br>
+       <p> Sonamiya High School merupakan salah satu sekolah negeri menengah atas yang ada di 
+        kota Kobe, perfektur Hyogo. Awalnya sekolah ini bernama Sonamiya Academy pada tahun 1978
+        sebelum pada akhirnya berganti nama di tahun 1995 untuk memfokuskan pada akademik di tingkat
+        menengah atas. Sekolah ini dekat dengan daerah pusat pelatihan olahraga di Kobe, sehingga 
+        banyak alumni dari sekolah ini beralih menjadi atlet olahraga. Meski begitu sekolah ini juga
+        sangat mengawasi perkembangan anak dalam kemampuan literasi dan numerasi sebagai wadah mereka
+        menghadapi persaingan global.</p>
+        <br>
+        <p> Sonamiya High School memiliki visi yaitu "Langkahkan Kakimu, Kejarlah Impianmu". Visi ini
+        melekat di setiap warga sekolah, tidak hanya kepada siswa, tapi juga tenaga pendidik untuk terus
+        melangkah dengan tepat untuk mencapai tujuan. Sekolah ini telah menerapkan sistem kurikulum "Meta"
+        sejak berubahnya nama sekolah untuk dapat memastikan di setiap tahunnya siswa lebih serius dalam
+        membangun karir mereka. Tidak banyak mata pelajaran pokok yang diberikan dan tidak ada siswa rangking
+        sehingga siswa tidak khawatir dan malu untuk gagal.
+        </p>
+        <br>
+        <p> Berbagai prestasi telah diraih oleh sekolah ini hingga mencapai tingkat Internasional dan bahkan
+        saat ini Sonamiya High School telah menjadi sekolah dengan sistem pengelolaan kelas terbaik se-Jepang
+        selama 8 tahun berturut-turut. Hal ini bisa dilihat dari setiap semesternya pasti ada kunjungan dari
+        sekolah lain untuk bisa belajar bagaimana sekolah ini bergerak dan terus bergerak. Sebenarnya masih 
+        banyak hal yang bisa disampaikan dari sekolah Sonamiya ini. Namun bila anda tertarik untuk melihatnya
+        langsung, silahkan anda bisa pergi ke Jalan Iwaran, No.30, Kobe.
+        </p>
+        <br>
+        <br>
+    </section>
+
+    <section class="facilities" id="facing">
+        <h1> Fasilitas Sekolah</h1>
+        <br>
+        <p> Berikut fasilitas yang sering digunakan oleh warga Sonamiya High School</p>
+    
+        <div class="card-container">
+            <div class="card">
+            <img src="fasilitas/sports-bg.jpg">
+                <div class="card-content">
+                    <h3> Area Olahraga Terbuka</h3>
+                    <p> Tersedia lapangan sepak bola, trek lari, dan area atletik outdoor lainnya</p>    
+                </div>
+            </div>
+    
+            <div class="card">
+            <img src="fasilitas/sports-indoor.jpg">
+                <div class="card-content">
+                    <h3> Area Olahraga Tertutup</h3>
+                    <p> Biasanya dipakai untuk olahraga basket, voli, dan futsal</p>    
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="fasilitas/library.jpg">
+                    <div class="card-content">
+                        <h3> Perpustakaan Terbuka</h3>
+                        <p> Tempat menemukan sumber ilmu melalui buku, majalah, dan bahan bacaan lainnya. Dibuka secara umum 
+                            setiap hari Senin - Jumat dari jam 08.00 sampai 16.00. 
+                    </div>
+            </div>
+        
+            <div class="card">
+                <img src="fasilitas/computer-lab.jpg">
+                    <div class="card-content">
+                        <h3> Laboratorium Komputer</h3>
+                        <p> Tersedia bagi siswa yang ingin mendalami keahlian di bidang teknologi rekayasa, analisis data,
+                            dan programming.
+                    </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </section>
+
+    <section class="kontak" id="contact">
+        <h1> Hubungi Kami Untuk Info Lanjut</h1>
+        <div class="container">
+            <div class="form-container">
+              <h2>Form Pengisian</h2>
+              <form id="myForm">
+                <div class="form-group">
+                  <label for="name">Nama :</label>
+                  <input type="text" id="name" name="name" placeholder="Masukkan nama anda" required>
+                </div>
+                <div class="form-group">
+                  <label for="date">Tanggal Lahir :</label>
+                  <input type="date" id="date" name="date" required>
+                </div>
+                
+                <label for ="gender"> <b> Jenis Kelamin : </b></label>
+                <div class="radio-group">
+                  <br>
+                  <div class="gender">
+                    <input type="radio" id="male" name="gender" value="Laki-Laki" checked>
+                    <label for="male">Laki-Laki</label>
+                  </div>
+                  <div class="radio-group">
+                    <input type="radio" id="female" name="gender" value="Perempuan">
+                    <label for="female">Perempuan</label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="message">Pesan :</label>
+                  <textarea id="message" name="message" placeholder="Tulis pesan anda" required></textarea>
+                </div>
+                <button type="submit" class="button">Submit</button>
+              </form>
+            </div>
+
+            <div class="info-container">
+              <h3>Submitted Data</h3>
+              <div id="submittedData">
+                <table>
+                    <tr>
+                      <th>Nama</th>
+                      <th>: <span id="submittedName"></span></th>
+                    </tr>
+                    <tr>
+                      <th>Tanggal Lahir</th>
+                      <th>: <span id="submittedDate"></span></th>
+                    </tr>
+                    <tr>
+                      <th>Jenis Kelamin</th>
+                      <th>: <span id="submittedGender"></span></th>
+                    </tr>
+                    <tr>
+                      <th>Pesan</th>
+                      <th>: <span id="submittedMessage"></span></th>
+                    </tr>
+                    <tr>
+                      <th>Current time</th>
+                      <th>: <span id="currentTime"></span></th>
+                    </tr>
+                  </table>
+            </div>
+        </div>
+        
+    </section>
+
+    <br> <br>
+    <footer>
+        <div class="foot-button">
+            <p> Copyright &copy; 2024; Desain dari
+                <span class="design-word">
+                   Pande Putu Gean
+                </span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
